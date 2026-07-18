@@ -1,0 +1,36 @@
+Q.1 install GCC on your computer and verify the installation by running gcc --version in your terminal or command prompt.
+ANS: Install GCC and verify installation
+Steps:
+1. Install GCC on the computer.
+2. Open command prompt (or terminal).
+3. Type the following command:
+ gcc --version
+4. Press enter.
+5. if the GCC version is displayed, the installation is successful.
+Example Output:
+gcc (MinGW.org GCC) 6.x.x
+copyright (c) free software foundation, inc.
+Result:GCC was successfully installed and verified using the gcc --version command. 
+
+Q.2 Open VS Code or DevC++ and create a new file named hello.c. Write a C program that prints 'Hello, Instagram World!' to the console.
+ANS: Save the following code in a file named hello.c.
+#include<stdio.h>
+main(){
+   printf("hello, Instagram world!\n");
+
+Q.3Identify and label the header, main function, and return statement in your hello.c program using comments.
+ANS: // Header file 
+     #include<stdio.h>
+   // main function
+  int main()
+{
+ printf("hello, Instagram World!");
+
+// return statement
+return 0;
+}
+
+Labels:
+* // header file: #include<stdio.h>
+* // main function: int main()
+* // return statement: return 0;
