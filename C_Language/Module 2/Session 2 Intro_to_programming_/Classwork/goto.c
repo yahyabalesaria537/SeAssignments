@@ -20,4 +20,4 @@ main(){
 		printf("\n num is odd");
 		return;
 	}
-}
+} 

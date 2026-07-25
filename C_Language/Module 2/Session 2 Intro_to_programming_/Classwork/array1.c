@@ -5,7 +5,6 @@ main(){
     int i;	
 	for(i=0;i<5;i++){
 	printf("\n a[%d]=%d",i,a[i]);
-	printf("\n a[%d]=%d",i,a[2]);
 	}
 	printf("\n char array\n");
 	for(i=0;i<5;i++){
